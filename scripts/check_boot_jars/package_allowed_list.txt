@@ -292,3 +292,7 @@ qcom.fmradio
 ###################################################
 # IFAA Manager used for Alipay and/or WeChat payment
 org\.ifaa\.android\.manager.*
+
+###################################################
+# Lineage HALs
+vendor\.lineage\..*
