@@ -225,6 +225,7 @@ type ProductVariables struct {
 	Platform_version_name                  *string  `json:",omitempty"`
 
 	DeviceName                            *string  `json:",omitempty" generic:"generic"`
+	HertzifyDeviceName                    *string  `json:",omitempty"`
 	DeviceProduct                         *string  `json:",omitempty" generic:"generic"`
 	DeviceArch                            *string  `json:",omitempty"`
 	DeviceArchVariant                     *string  `json:",omitempty"`
@@ -520,6 +521,7 @@ type ProductVariables struct {
 	ProductDefaultWifiChannels []string `json:",omitempty"`
 
 	OemProperties []string `json:",omitempty"`
+	HertzifyDevice []string `json:",omitempty"`
 
 	ArtTargetIncludeDebugBuild *bool `json:",omitempty"`
 
