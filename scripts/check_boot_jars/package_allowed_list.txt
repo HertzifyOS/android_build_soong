@@ -309,3 +309,7 @@ com.camera.camera2.extensions.*
 ###################################################
 # Xiaomi Extensions
 com.xiaomi.extensions.*
+
+###################################################
+# Camera Extensions
+com.camera.camera2.extensions.*
