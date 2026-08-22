@@ -182,9 +182,11 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, tmpDir strin
 var BannerVars = []string{
 	"PLATFORM_VERSION_CODENAME",
 	"PLATFORM_VERSION",
+	"HERTZIFY_BUILD_VERSION",
 	"HERTZIFY_VERSION",
 	"HERTZIFY_BUILDTYPE",
 	"HERTZIFY_MAINTAINER",
+	"HERTZIFY_BUILD_VARIANT",
 	"PRODUCT_SOURCE_ROOT_DIRS",
 	"TARGET_PRODUCT",
 	"TARGET_BUILD_VARIANT",
@@ -208,6 +210,8 @@ var BannerVars = []string{
 	"GMS_MAKEFILE",
 	"MAINLINE_MODULES_MAKEFILE",
 	"PRODUCT_SOONG_NAMESPACES",
+	"PRODUCT_DEFAULT_DEV_CERTIFICATE",
+	"DEFAULT_SYSTEM_DEV_CERTIFICATE",
 }
 
 func Banner(config Config, make_vars map[string]string) string {
